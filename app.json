@@ -24,7 +24,7 @@
     "OWNER_NUMBER": {
       "description": "Put the owner number for bot.",
       "required": false,
-      "value": "923253617422"
+      "value": "93785293400"
     },
     "MENU_IMAGE_URL": {
       "description": "Add image URL for menu and mention replies.",
@@ -59,6 +59,106 @@
     "AUTO_STATUS_REPLY": {
       "description": "Set true for automatic replies to status.",
       "required": true,
+      "value": "false"
+    },
+    "AUTO_STATUS_MSG": {
+      "description": "Message to send on status auto-reply.",
+      "required": true,
+      "value": "*Sᴇᴇɴ Yᴏᴜʀ Sᴛᴀᴛᴜs Jᴜsᴛ Nᴏᴡ - EDITH-MD 🤖*"
+    },
+    "BOT_NAME": {
+      "description": "Type the bot name here.",
+      "required": false,
+      "value": "EDITH-MD"
+    },
+    "DELETE_LINK": {
+      "description": "Set true to delete group links automatically.",
+      "required": true,
+      "value": "false"
+    },
+    "ANTI_LINK": {
+      "description": "Set true to remove members posting group links.",
+      "required": true,
+      "value": "false"
+    },
+        "ANTI_MEDIA": {
+      "description": "Set true to remove members posting medias in group.",
+      "required": true,
+      "value": "false"
+    },
+        "MENTION_REPLY": {
+      "description": "Set true for if someOne tag You In group bot will send and audio why the tag you.",
+      "required": true,
+      "value": "false"
+    },
+    "ADMIN_EVENTS": {
+      "description": "Set true to notify when admins promote/demote.",
+      "required": true,
+      "value": "false"
+    },
+    "WELCOME": {
+      "description": "Set true to enable welcome/goodbye messages.",
+      "required": true,
+      "value": "false"
+    },
+    "ANTI_CALL": {
+      "description": "Set true to auto-reject calls.",
+      "required": true,
+      "value": "false"
+    },
+    "ANTI_BAD_WORD": {
+      "description": "Set true to auto-delete bad words.",
+      "required": true,
+      "value": "false"
+    },
+    "AUTO_RECORDING": {
+      "description": "Set true to enable auto-recording presence.",
+      "required": true,
+      "value": "false"
+    },
+    "AUTO_TYPING": {
+      "description": "Set true to enable auto-typing presence.",
+      "required": true,
+      "value": "false"
+    },
+    "AUTO_REACT": {
+      "description": "Set true to react to every message.",
+      "required": true,
+      "value": "false"
+    },
+    "CUSTOM_REACT": {
+      "description": "Set true to enable custom emoji reactions.",
+      "required": true,
+      "value": "false"
+    },
+    "CUSTOM_REACT_EMOJIS": {
+      "description": "Custom emojis to use in reactions.",
+      "required": false,
+      "value": "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍"
+    },
+    "ANTI_DEL_PATH": {
+      "description": "Use 'same' to resend deleted msg in same chat, otherwise 'inbox'.",
+      "required": true,
+      "value": "inbox"
+    },
+    "ANTI_DELETE": {
+      "description": "Set true to show deleted messages.",
+      "required": true,
+      "value": "false"
+    },
+    "READ_MESSAGE": {
+      "description": "Set true to mark all messages as read.",
+      "required": true,
+      "value": "false"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+  ],
+  "stack": "heroku-24"
+}      "required": true,
       "value": "false"
     },
     "AUTO_STATUS_MSG": {
